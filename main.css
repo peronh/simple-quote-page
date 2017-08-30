@@ -1,0 +1,21 @@
+*{
+  margin: 0; padding: 0; border: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(freedom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+h1{
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  padding: 3rem 2rem 1rem 2rem;
+  line-height: 3rem;
+  font-stretch: expanded;
+}
