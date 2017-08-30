@@ -6,14 +6,16 @@ body{
   background-image: url(assets/freedom.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  text-align: center;
   width:100vw;
   height:100vh;
+  /*font-size: 100%;*/
 }
 
 h1{
   font-family: 'Noto Sans', sans-serif;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 100;
   padding: 3rem 2rem 1rem 2rem;
   line-height: 3rem;
@@ -21,9 +23,48 @@ h1{
 }
 h3{
   font-family: 'Playfair Display' , serif;
-  font-size: 80%;
+  font-size: 90%;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
   margin-top: 3rem;
 }
+
+@media (max-width:1366px){
+  h1{
+    font-size: 130%;
+    padding: 3rem .5rem 1rem .5rem;
+  }
+}
+  
+
+@media (max-width:1024px){
+  h1{
+    font-size: 100%;
+    padding: 3rem .5rem 1rem .5rem;
+  }
+}
+@media (max-width:768px){
+  h1{
+    font-size: 90%;
+    padding: 3rem .5rem 1rem .5rem;
+  }
+}
+@media (max-width:480px){
+  h1{
+    font-size: 70%;
+    padding: 3rem .5rem 1rem .5rem;
+  }
+  h3{
+    font-size: 70%
+  }
+}
+@media (max-width:380px){
+  h1{
+    font-size: 60%;
+    padding: 3rem .5rem 1rem .5rem;
+  }
+  h3{
+    font-size: 60%
+  }
+}
+
