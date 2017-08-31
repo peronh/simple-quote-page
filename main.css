@@ -35,6 +35,7 @@ h3{
 }
 .flag img{
   width:2rem;
+  margin: 0 .4rem;
 }
 
 @media (max-width:1366px){
@@ -57,7 +58,7 @@ h3{
     padding: 3rem .5rem 1rem .5rem;
   }
   .flag img{
-  width:1.2rem;
+  width:1.5rem;
 } 
 }
 @media (max-width:480px){
